@@ -42,9 +42,10 @@ export default function WesternCraftConstructionWebsite() {
             </p>
 
             <h2 className="mb-6 text-5xl font-bold leading-tight md:text-6xl">
-              Built With Craftsmanship.
-              <span className="block text-emerald-300">Backed By Reputation.</span>
-            </h2>
+              Kitchen Renovations, Custom Carpentry & Home Renovations in Southern Alberta
+              <p className="text-2xl font-semibold text-emerald-300 mt-4">
+Built With Craftsmanship. Backed By Reputation.
+</p>
 
             <p className="mb-8 max-w-xl text-lg text-stone-300">
               Western Craft & Construction specializes in premium kitchen renovations,
@@ -191,8 +192,8 @@ export default function WesternCraftConstructionWebsite() {
             </h3>
 
             <p className="mb-6 leading-relaxed text-stone-700">
-              Western Craft & Construction proudly serves Lethbridge, Coaldale, Taber, and surrounding Southern Alberta communities.
-            </p>
+Western Craft & Construction serves homeowners throughout Lethbridge, Coaldale, Taber, and surrounding Southern Alberta communities. We specialize in kitchen renovations, basement developments, custom carpentry, IKEA kitchen installations, cabinet installation, trim work, and complete home renovations.
+</p>
 
             <p className="mb-6 leading-relaxed text-stone-700">
               With more than 13 years of hands-on construction experience, Rocky focuses on quality workmanship, honest communication, and professional results homeowners can rely on.
@@ -267,7 +268,11 @@ export default function WesternCraftConstructionWebsite() {
             </div>
           </div>
 
-          <form className="rounded-3xl bg-white p-8 shadow-xl">
+          <form
+  action="https://formspree.io/f/xnjypkle"
+  method="POST"
+  className="rounded-3xl bg-white p-8 shadow-xl"
+>
             <div className="grid gap-5">
               <input
                 type="text"
