@@ -1,3 +1,5 @@
+import Portfolio from "./components/Portfolio";
+
 export const metadata = {
   title:
     "Western Craft & Construction | Kitchen Renovations in Lethbridge & Southern Alberta",
@@ -126,6 +128,8 @@ export default function Page() {
           </p>
         </div>
       </section>
+
+      <Portfolio />
 
       {/* CONTACT */}
       <section id="contact" className="bg-stone-200 px-6 py-20">
